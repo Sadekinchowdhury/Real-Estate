@@ -67,7 +67,7 @@ const MyOffer = () => {
                                 <h2 className="card-title">{offer.title}</h2>
                                 <p className='mt-[20px] text-[18px]'>{offer.description}</p>
 
-                                <div className=" justify-start text-rgba w-[202px]  py-[18px] px-[32px]  border-[1px] lg:mb-[38px]">
+                                <div className=" justify-start text-rgba w-[202px]  py-[18px] px-[32px]  border-[1px] mt-5">
 
                                     <p className=''>Contact Now</p>
 

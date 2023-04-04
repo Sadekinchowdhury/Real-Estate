@@ -5,6 +5,8 @@ import AboutUs from './About Us/Aboutus';
 import MyOffer from './MyOffer/MyOffer';
 import Team from './Team/Team';
 import Blogs from './Blogs/Blogs';
+import ContactUs from './ContactUs/ContactUs';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     return (
@@ -23,6 +25,12 @@ const Home = () => {
             </div>
             <div>
                 <Blogs></Blogs>
+            </div>
+            <div>
+                <ContactUs></ContactUs>
+            </div>
+            <div>
+                <Footer></Footer>
             </div>
         </div>
     );

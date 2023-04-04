@@ -9,7 +9,7 @@ const Team = () => {
             picture: image1,
             title: "Brajesh Pathak",
             description: "A Chartered Accountant & Company Secretary, has over a decade of experience in managing realty focused venture capital funds, and was heading Azure Capital Advisors Private Limited. He has also been...",
-            money: "INR 3000/Project"
+
 
         },
         {
