@@ -29,7 +29,7 @@ const MyOffer = () => {
 
 
     return (
-        <div className='w-10/12 mt-[35px] h-[897px] mx-auto'>
+        <div className='w-10/12 mt-[35px] lg:h-[897px] mx-auto'>
             <div>
                 <p className='text-center text-[32px] font-bold'>Our offering</p>
                 <p className=' text-center mt-[20px] text-[16px] font-normal '>This whole purchase journey can be divided into three stages. For more details, <strong className='text-rgba font-bold'>Click Here</strong></p>
@@ -37,7 +37,7 @@ const MyOffer = () => {
             </div>
 
             <div className=' my-3'>
-                <div className='text-center h-[100px] items-center justify-center  rounded-xl p-5 gap-[29px] mx-auto  grid grid-cols-1 lg:grid-cols-3 '>
+                <div className='text-center lg:h-[100px] items-center justify-center  rounded-xl p-5 gap-[29px] mx-auto  grid grid-cols-1 lg:grid-cols-3 '>
                     <div className='bg-slate-200  flex p-5'>
                         <span className='mr-[20px] bg-white rounded-full w-6 h-6'>1</span>  <p>Pre-Booking</p>
                     </div>
@@ -61,19 +61,18 @@ const MyOffer = () => {
                         id={offer.id}
                         className='shadow-2xl '
                     >
-                        <div className=" p-3  h-[631px] bg-base-100 shadow-2xl ">
+                        <div className="card p-3  h-[631px] bg-base-100 shadow-2xl ">
                             <figure><img className='w-[407px] h-[319px]' src={offer.picture} alt="Shoes" /></figure>
                             <div className="card mt-4">
                                 <h2 className="card-title">{offer.title}</h2>
                                 <p className='mt-[20px] text-[18px]'>{offer.description}</p>
-                                <div className="card-actions justify-start text-rgba lg:mt-[38px]">
-                                    <div className=' w-[202px] lg:mt-3  border-[1px]'>
-                                        <div>
-                                            <p className='py-[18px] px-[32px]'>Contact Now</p>
-                                        </div>
 
-                                    </div>
+                                <div className=" justify-start text-rgba w-[202px]  py-[18px] px-[32px]  border-[1px] lg:mb-[38px]">
+
+                                    <p className=''>Contact Now</p>
+
                                 </div>
+
                             </div>
                         </div>
 
