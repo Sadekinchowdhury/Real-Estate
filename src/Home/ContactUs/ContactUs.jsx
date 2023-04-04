@@ -15,8 +15,10 @@ const ContactUs = () => {
                     <p className='text-xl font-semibold mt-3'>Contact Us </p>
                     <form action="">
                         <div className='grid mt-2 grid-cols-1 lg:grid-cols-2 gap-4'>
-                            <input type="text" placeholder="Type here" className="input input-bordered w-full   border-black" />
-                            <input type="text" placeholder="Type here" className="input input-bordered w-full   border-black" />
+
+                            <input type="text" placeholder="FullName" className="input input-bordered w-full   border-black" />
+
+                            <input type="text" placeholder="Email" className="input input-bordered w-full   border-black" />
 
                             <PhoneInput
                                 className='w-full h-full'
@@ -30,12 +32,12 @@ const ContactUs = () => {
                                 placeholder="Enter phone number"
                                 value={value}
                                 onChange={setValue} /> */}
-                            <input type="text" placeholder="Type here" className="input input-bordered w-full   border-black" />
+                            <input type="text" placeholder="Country" className="input input-bordered w-full   border-black" />
 
 
 
 
-                            <input type="text" placeholder="Type here" className="input input-bordered w-full   border-black" />
+                            <input type="text" placeholder="Stages" className="input input-bordered w-full   border-black" />
 
                         </div>
                         <div>

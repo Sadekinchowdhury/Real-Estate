@@ -6,7 +6,7 @@ const Banner = () => {
             <div className='items-center text-center justify-center'>
                 {/* text */}
 
-                <p className='text-white  lg:mt-20 lg:ml-16 text-[40px] '>Making your <strong className='text-yellow-400  '>real  estate</strong>  purchase <br />  journey faster and <br />   transparent</p>
+                <p className='text-white  lg:mt-20 lg:ml-16 text-[40px] font-Solway font-normal '>Making your <strong className='text-yellow-400  '>real  estate</strong>  purchase <br />  journey faster and <br />   transparent</p>
             </div>
             <div className=''>
                 {/* picture */}
